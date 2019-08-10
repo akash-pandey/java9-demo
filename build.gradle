@@ -5,6 +5,9 @@ plugins {
 group 'com.github.akash-pandey.spikes'
 version '1.0-SNAPSHOT'
 
+apply plugin: 'idea'
+apply plugin: 'org.springframework.boot'
+
 sourceCompatibility = 1.8
 
 repositories {
